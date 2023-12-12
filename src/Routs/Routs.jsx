@@ -7,6 +7,8 @@ import AboutMe from "../Pages/AboutMe";
 import ContactMe from "../Pages/ContactMe";
 import Experience from "../Pages/Experience";
 import Home from "../Pages/Home";
+import Blog from "../Pages/Blog";
+import MyProject from "../Pages/MyProject";
 
 export const myRouts = createBrowserRouter([
     {
@@ -28,6 +30,14 @@ export const myRouts = createBrowserRouter([
             {
                 path: "/experienceMe",
                 element: <Experience></Experience>
+            },
+            {
+                path: "/blog",
+                element: <Blog></Blog>
+            },
+            {
+                path: "/myProject",
+                element: <MyProject></MyProject>
             }
         ]
     },
